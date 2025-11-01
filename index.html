@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bashar Salloum</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./images/my-avatar.png" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Bashar Salloum">Bashar Salloum</h1>
+
+          <p class="title">Mechatronics engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:richard@example.com" class="contact-link">bsharslwm504@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+963 983-391-145</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">April 27, 2003</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Al-Ghab Plain, Hama, Syria</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.facebook.com/bashar.r.salloum.2025?mibextid=ZbWKwL" class="social-link" >
+
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fbashar-salloum-559681336%3Futm_source%3Dshare%26utm_campaign%3Dshare_via%26utm_content%3Dprofile%26utm_medium%3Dandroid_app&h=AT23VnhiFUFq29CQMIUw39kJvabG8oTjLeb9emkN9WD8OMkXt4doD3QmG4hPDEWDaYepn8oqgGNc9qQq2fZ8H0DctpDWObzPbk4UUtn6_rst1K43jF1J360HAq1lcy0&s=1" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/Bashar-sallom" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm a Mechatronics Engineer from Al-Ghab Plain, Hama, Syria, driven by a passion for innovation and practical problem-solving. With hands-on experience in front-end development and a deep commitment to sustainable energy, I specialize in the study, design, and execution of solar power systems—residential, agricultural, and industrial..
+          </p>
+
+          <p>
+            My journey spans hundreds of successful installations, where I’ve combined engineering precision with real-world efficiency. I also work in electrical wiring for both homes and industrial facilities, ensuring safety, reliability, and smart integration. In addition, I provide maintenance services for electrical and electronic circuits, offering fast diagnostics and effective solutions..
+          </p>
+          <p>I believe that technology should serve people—and I bring that belief into every project I lead. Whether it's powering a farm, lighting a home, or building a digital interface, my goal is to deliver solutions that are functional, elegant, and future-ready.</p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#d2b660"><path d="m80-80 80-400h640l80 400H80Zm40-733.33V-880h120v66.67H120Zm42 666.66h284.67v-100H182l-20 100Zm75.67-449L190-642.33l85-85 47.67 46.66-85 85Zm-42.34 282.34h251.34v-100H215.33l-20 100Zm284.67-380q-77 0-130.5-54.5T293.33-880H360q2 50 36.33 85 34.34 35 83.67 35t83.67-35Q598-830 600-880h66.67Q664-802.33 610.5-747.83q-53.5 54.5-130.5 54.5ZM480-880Zm-33.33 360v-120h66.66v120h-66.66Zm66.66 373.33H798l-20-100H513.33v100Zm0-166.66h251.34l-20-100H513.33v100Zm209-283-84.66-85L684.33-728 770-644l-47.67 47.67Zm-2.33-217V-880h120v66.67H720Z"/></svg>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Solar Energy  </h4>
+
+                <p class="service-item-text">
+                  Study, design, and implementation of solar energy systems across various sectors  .
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#d2b660"><path d="M764-120 523.67-360.33l66-66L830-186l-66 66Zm-571.33 0-66-66L412-471.33l-94-94-24.67 24.66L247-587v84l-25.33 25.33L100-599.33l25.33-25.34H210l-48.67-48.66L296-808q18-18 39-25t45-7q24 0 45 8.67 21 8.66 39 26.66l-102 102L410.67-654l-25.34 25.33 92 92L588.67-648q-6.67-12.33-10.5-27.67-3.84-15.33-3.84-32 0-55 39.17-94.16Q652.67-841 707.67-841q15 0 26.5 3t20.83 8.33L665.33-740l74 74L829-755.67q5.67 10 8.83 22.17 3.17 12.17 3.17 27.17 0 55-39.17 94.16Q762.67-573 707.67-573q-16 0-28.67-2.33-12.67-2.34-23.67-7.34L192.67-120Z"/></svg>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Electronic Maintenance  </h4>
+
+                <p class="service-item-text">
+                  Maintenance of all electronic and electrical circuits  .
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#d2b660"><path d="M716.67-360v-66.67h90q14.33 0 23.83 9.5 9.5 9.5 9.5 23.84 0 13.66-9.5 23.5Q821-360 806.67-360h-90Zm0 160v-66.67h90q14.33 0 23.83 9.5 9.5 9.5 9.5 23.84 0 13.66-9.5 23.5Q821-200 806.67-200h-90ZM560-160q-30.33 0-51.83-23.5t-21.5-56.5h-90v-146.67h90q0-33 21.5-56.5t51.83-23.5h123.33V-160H560ZM276.67-280Q210-280 165-324.67q-45-44.66-45-112 0-67.33 45-112 45-44.66 111.67-44.66H340q30.33 0 50.17-19.84Q410-633 410-663.33q0-30.34-19.83-50.17-19.84-19.83-50.17-19.83H193.33q-13.66 0-23.5-9.84Q160-753 160-766.67q0-14.33 9.83-23.83 9.84-9.5 23.5-9.5H340q58 0 97.33 39.33 39.34 39.34 39.34 97.34T437.33-566Q398-526.67 340-526.67h-63.33q-39 0-64.5 25.17t-25.5 64.83q0 39.67 25.5 64.84 25.5 25.16 64.5 25.16h86.66V-280h-86.66Z"/></svg>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Electrical Design and Implementation  </h4>
+
+                <p class="service-item-text">
+                  Design and execution of electrical schematics for both residential and industrial applications.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Certificates</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="https://coursera.org/share/7b51af71dfb5a4d144afdd883ab952d3">
+                <img src="./images/sha1.jpg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://coursera.org/share/c336ab8089602298e74c6c1a8839fe06">
+                <img src="./images/sha2.jpg" alt="client logo">
+              </a>
+            </li>
+
+
+            <li class="clients-item">
+              <a href="https://www.coursera.org/account/accomplishments/verify/OWFI3RPG0WZI?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course">
+                <img src="./images/sha3.jpg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://coursera.org/share/922e4e23839710340c764c309c1fdaf0">
+                <img src="./images/sha5.jpg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://www.coursera.org/account/accomplishments/verify/TA7QLNH4AXZG?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course">
+                <img src="./images/sha6.jpg" alt="client logo">
+              </a>
+            </li>
+            <li class="clients-item">
+              <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.freecodecamp.org%2Fcertification%2Ffcc76a378bc-93ff-4d64-bee5-197e4b2b4d4c%2Fresponsive-web-design&h=AT3rG_ILbq45hUbIJHb0KyetYo7eHdje1QIOxR7lGRm_H_J9-5SGjjSsYsLsQicllnJhcWbxYR4blGVMjZY3ccl-CM1dWFJUi65KCOZ4ldBlkuvX5aVAIqrWmMKIgQ0&s=1">
+                <img src="./images/sha7.jpg" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">University of Aleppo – Faculty of Electrical and Electronic Engineering</h4>
+
+              <span>2022 - 2025</span>
+
+              <p class="timeline-text">
+                I gained experience in logical thinking and developed a deep understanding of electronics and electricity.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Scientific Secondary School</h4>
+
+              <span>2020 — 2022</span>
+
+              <p class="timeline-text">
+               I delved deeply into fundamental sciences, which enhanced my knowledge and expertise—especially in mathematics and physics.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Preparatory School Certificate</h4>
+
+              <span>2011 — 2019</span>
+
+              <p class="timeline-text">
+                It was the beginning and the launch point of my passion for technology..
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Creative director</h4>
+
+              <span>2025/5 — Present</span>
+
+              <p class="timeline-text">
+                I launched my own business focused on the energy sector—covering everything from buying and selling products to designing and implementing complete systems. I also designed websites for several restaurants and organized training courses to qualify technicians in solar energy and electrical work..
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Mechatronics Engineer</h4>
+
+              <span>2023 — 2025/4</span>
+
+              <p class="timeline-text">
+                I worked in the study, design, and supervision of the implementation of solar energy systems in all their sectors, as well as electrical installations. I became the supervisor of the electronic and electrical maintenance department and was responsible for training electrical and solar energy technicians. I also managed the company’s website.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Business and Finance Coordinator</h4>
+
+              <span>2019 — 2023</span>
+
+              <p class="timeline-text">
+                I worked as an Administrative and Financial Officer at a company specialized in solar energy, as well as the design and implementation of electrical installations. I was also involved in maintaining electronic and electrical circuits. Driven by my passion for the field, continuous learning, and dedication, I mastered these areas. Additionally, I had an interest in programming and some basic experience, which allowed me to occasionally make edits to the company’s website..
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Solar Energy</h5>
+                <data value="80">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Electrical Installations</h5>
+                <data value="70">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Maintenance of Electronic and Electrical Circuits</h5>
+                <data value="90">65%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 65%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Website Design</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Solar Energy</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Electronic Maintenance </button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Electrical Design and Implementation </button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Solar Energy</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Electronic Maintenance </button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Electrical Design and Implementation </button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list"> 
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./images/project-1.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Finance</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+  <li class="project-item  active" data-filter-item data-category="solar energy">
+              <a href="https://www.facebook.com/share/p/1BStPBuBYq/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./images/s.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Finance</h3>
+
+                <p class="project-category">solar energy</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="electrical design and implementation">
+              <a href="https://www.facebook.com/share/p/17FsaYBx1D/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./images/c.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Finance</h3>
+
+                <p class="project-category">Electrical Design and Implementation</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="solar energy">
+              <a href="https://www.facebook.com/share/p/1A79Fp4kU1/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./images/sol.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Finance</h3>
+
+                <p class="project-category">solar energy</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="electronic maintenance">
+              <a href="https://www.facebook.com/share/p/17FsaYBx1D/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./images/e.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Finance</h3>
+
+                <p class="project-category">Electronic Maintenance</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="electrical design and implementation">
+              <a href="https://www.facebook.com/share/p/1BrKQfmJqM/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./images/hhhh.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Finance</h3>
+
+                <p class="project-category">electrical design and implementation</p>
+
+              </a>
+            </li>
+            
+
+          </ul> 
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13294.18809984513!2d36.319!3d35.545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1523f7e1e6c9c6f1%3A0x8c7e6b0f3f7e6b0f!2z2YXYr9mK2YbYqSDYp9mE2KfZhNmK2Kkg2KfZhNin2YTZhNmK2Kkg2KfZhNiv2YrYqQ!5e0!3m2!1sar!2s!4v1700000000000!5m2!1sar!2s"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
